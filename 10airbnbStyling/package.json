@@ -1,0 +1,23 @@
+{
+  "name": "9.2airbnb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "postcss": "^8.4.49"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
