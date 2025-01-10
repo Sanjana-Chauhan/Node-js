@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <%- include('partials/head') %>    <body>
+        <h1 class="text-amber-500 text-5xl  p-4 text-center">Welcome to airbnb</h1>
+        <a class="text-red-600" href="/host/add-Home">Add new Home</a>
+
+        <h1 class="text-4xl">
+            Available houses:
+        </h1>
+        
+        <% cards.forEach((card)=>{ %>
+                <div class="card">
+                    <div class="cardImg">
+                        <img src= <%= card.img%> />
+                    </div>
+                    <div class="content">
+                        <span class="house"><%= card.house%> </span>
+                       <span><%= card.price%></span>
+                        <span><%= card.location%></span>                      
+                    </div>
+
+                </div>
+        <% })%>
+
+    </body>
+</html>
