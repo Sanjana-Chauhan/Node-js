@@ -13,7 +13,8 @@ exports.getAddHome=(req,res,next)=>{
  }
 
 exports.getHomepage=(req,res,next)=>{
-    const cards=Home.fetchAll();
-    res.render('Home',{cards:cards});
+    Home.fetchAll((cards)=>{
+        res.render('Home',{cards:cards});
+    }); 
 }
  

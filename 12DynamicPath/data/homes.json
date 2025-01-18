@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "house": "PArivaar",
+        "price": "3000",
+        "location": "china"
+    },
+    {
+        "id": 2,
+        "house": "utsav",
+        "price": "2000",
+        "location": "usa"
+    },
+    {
+        "id": 3,
+        "house": "home2",
+        "price": "900",
+        "location": "usa"
+    },
+    {
+        "id": 4,
+        "house": "PArivaar",
+        "price": "2000",
+        "location": "china"
+    },
+    {
+        "house": "home10",
+        "price": "1299",
+        "location": "singapore",
+        "id": "0.9896274092716839"
+    }
+]
